@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple messenger</title>
+    <link rel="shortcut icon" href="img/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img class="logo" src="img/icon.jpg" alt="">
+    <h2>Simple messenger</h2>
+</header>
+<h3>
+    Список контактов
+</h3>
+<div class="container">
+    <div class="people">
+        <input id="User_1" type="radio" checked="checked" name="radio" value="0">
+        <label for="User_1">
+            <img src="img/people/Egor.png" alt="">
+            <span>Егор Хмелевский</span>
+        </label>
+
+        <input id="User_2" type="radio" name="radio" value="0">
+        <label for="User_2">
+            <img src="img/people/Anastasia.jpg" alt="">
+            <span>Анастасия Косицына</span>
+        </label>
+
+        <input id="User_3" type="radio" name="radio" value="0">
+        <label for="User_3">
+            <img src="img/people/Roman.jpg" alt="">
+            <span>Роман Лось</span>
+        </label>
+    </div>
+    <div class="messages">
+        <div id="content">
+        </div>
+        <div class="message-input">
+            <label for="message-text"></label>
+            <input id="message-text" type="text" name="message-text" placeholder="Введите сообщение">
+        </div>
+        <div class="message-buttons">
+            <button type="submit" id="send">Отправить</button>
+            <button type="submit" id="delete">Очистить</button>
+        </div>
+    </div>
+    <div class="contact">
+        <a href="https://t.me/TheDudoser" target="_blank">
+            <img src="img/telegram.png" alt="">
+        </a>
+        <a href="https://github.com/Dudoserovich" target="_blank">
+            <img src="img/github.png" alt="">
+        </a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
